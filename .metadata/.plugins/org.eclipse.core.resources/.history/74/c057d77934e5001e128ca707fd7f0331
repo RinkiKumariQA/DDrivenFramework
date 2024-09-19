@@ -1,0 +1,17 @@
+package Practice;
+
+public class Constructor {
+
+	public static void main(String[] args) 
+	{
+        int a=6;
+        a++;
+        System.out.println(a);
+        
+        int b=4;
+        --b;
+        
+        		
+	}
+
+}

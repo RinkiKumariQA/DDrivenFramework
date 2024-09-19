@@ -1,0 +1,15 @@
+package DB_Connection;
+
+import org.openqa.selenium.By;
+import org.openqa.selenium.WebDriver;
+import org.openqa.selenium.chrome.ChromeDriver;
+
+public class Broken_Link
+{
+       public static void main(String[] args) {
+		
+    	   WebDriver driver =new ChromeDriver();
+    	   driver.get("http://www.deadlinkcity.com");
+    	 List<WebElement> driver.findElement(By.tagName("a"));
+	} 
+}

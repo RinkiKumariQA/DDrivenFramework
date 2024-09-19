@@ -1,0 +1,36 @@
+package Interview_practice;
+
+
+public class javaa
+{ 
+   public static void main(String[] args)
+   {
+	 
+	/*   String str="My name is Rinki";
+	   String str1="";
+	   String a[]=str.split(" ");
+	   for(int i=0;i<a.length;i++)
+	   {
+	      System.out.print(a[i] + " ");
+	   }
+	   for(int i=a.length-1;i>=0;i--)
+	   {
+	     str=str+a[i]+" ";  
+	   }
+	     System.out.println(str);
+   */
+	   
+	   String s="Welcome Java";
+	   String [] words=s.split("\\s");
+	   String reverseword="";
+	   for(String w:words)
+	   {
+	     StringBuilder sb=new StringBuilder(w);
+	   sb.reverse();
+	   reverseword=reverseword+sb.toString()+" ";
+	   }
+
+	   System.out.println(reverseword);
+
+}
+}	

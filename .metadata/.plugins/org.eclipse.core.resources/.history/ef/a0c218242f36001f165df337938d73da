@@ -1,0 +1,26 @@
+import java.util.List;
+
+import org.openqa.selenium.By;
+import org.openqa.selenium.WebDriver;
+import org.openqa.selenium.WebElement;
+import org.openqa.selenium.chrome.ChromeDriver;
+import org.openqa.selenium.support.ui.Select;
+
+public class Practice {
+
+	public static void main(String[] args)
+	{
+       WebDriver driver=new ChromeDriver();
+       driver.manage().window().maximize();
+       driver.get("https://www.globalsqa.com/demo-site/select-dropdown-menu/");
+
+WebElement e1= driver.findElement(By.tagName("select"));
+
+       Select sc=new Select(e1);
+    		   List<WebElement> l1=sc.getOptions();
+    		   for(WebElement l2:l1)
+    		   {
+    		       System.out.println(l2.getText());
+    		   }
+}
+}

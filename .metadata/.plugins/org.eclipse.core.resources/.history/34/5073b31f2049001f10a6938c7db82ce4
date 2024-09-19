@@ -1,0 +1,23 @@
+package Interview_practice;
+
+import java.util.HashSet;
+import java.util.Set;
+
+public class javaa
+{   
+	public static void main(String[] args) 
+	
+	{
+		int a=1234;
+		int count =0;
+	while(a!=0)
+		{
+			a=a/10;
+			count++;
+		}
+		
+		
+	}
+
+	}
+   

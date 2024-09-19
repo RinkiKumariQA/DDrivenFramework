@@ -1,0 +1,25 @@
+package Interview_practice;
+
+import java.util.HashSet;
+import java.util.Set;
+
+public class javaa
+{   
+	public static void main(String[] args) 
+{ 
+		
+		
+		int a=12344;
+		int rev=0;
+		for(int i=1;i<a;i++)
+		{
+			int b=a%10;
+			rev=rev*10+b;
+			  a=a/10;
+			  
+		}
+		
+		System.out.println(rev);
+}
+}
+	

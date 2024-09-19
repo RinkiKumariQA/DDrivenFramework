@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="Cucumber" time="11.338" tests="1" skipped="0" failures="0" errors="0">
+<testcase classname="- Login" name="- Login Valid Input - #1.1" time="10.909">
+<system-out><![CDATA[
+Given User open Browser.....................................................passed
+When User entr the url "https://practicetestautomation.com/practice-test-login/".passed
+And Enter username "student" and  password "Password123"....................passed
+And Click submit button.....................................................passed
+Then Validate Title "Logged In Successfully | Practice Test Automation".....passed
+And Close Browser...........................................................passed
+]]></system-out>
+</testcase>
+</testsuite>

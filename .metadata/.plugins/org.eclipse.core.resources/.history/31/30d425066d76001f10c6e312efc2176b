@@ -1,0 +1,23 @@
+package Interview_practice;
+
+
+public class javaa
+{ 
+   public static void main(String[] args)
+   {
+	
+	   String s="My name  is Rinki";
+	   String ss[]=s.split("\\s");
+	   String rev="";
+	   for(String s1:ss)
+	   {
+		   StringBuffer sb=new StringBuffer(s1);
+		   sb.reverse();
+		   rev=rev+sb.toString()+" ";
+		   }
+	   
+	   System.out.println(rev);
+	   
+
+}
+}	

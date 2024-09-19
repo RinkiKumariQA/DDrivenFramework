@@ -1,0 +1,19 @@
+package Interview_practice;
+
+import java.util.Arrays;
+import java.util.HashSet;
+import java.util.Set;
+
+public class javaa
+{ 
+   public static void main(String[] args)
+   {
+	int a[]= {2,42,24,52,32,24,21};
+	Arrays.sort(a);
+	for(int i=0;i<a.length;i++) {
+		System.out.println(a[i]);
+	}
+		
+	   
+}
+}	

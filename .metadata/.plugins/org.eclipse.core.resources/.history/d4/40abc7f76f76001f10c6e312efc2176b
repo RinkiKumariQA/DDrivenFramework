@@ -1,0 +1,19 @@
+package Interview_practice;
+
+import java.util.HashSet;
+import java.util.Set;
+
+public class javaa
+{ 
+   public static void main(String[] args)
+   {
+	 String a[]= {"Hello","landon","landon"};
+	 Set ss=new HashSet();
+	 for(int i=0;i<a.length;i++)
+	 {
+		 ss.add(a[i]);
+	 }
+	  System.out.println(ss);
+	   
+}
+}	

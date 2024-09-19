@@ -1,0 +1,30 @@
+package Interview_practice;
+
+import java.util.LinkedList;
+import java.util.Queue;
+
+public class javaa
+{   
+	public static void main(String[] args) 
+	{
+	  
+		for(int i=1;i<=5;i++)
+		{
+		  for(int j=i;j>=1;j--)
+		{
+		  System.out.print(j+ " ");
+		}
+		System.out.println();
+		}
+	   
+		for(int x=1;x<=5;x++)
+		{
+			for(int y=5;y>=x;y--)
+			{
+				System.out.print(y+"");
+			}
+			System.out.println();
+		}
+	
+	}
+}

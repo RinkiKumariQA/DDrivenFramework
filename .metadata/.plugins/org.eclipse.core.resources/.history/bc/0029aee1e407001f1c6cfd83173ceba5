@@ -1,0 +1,10 @@
+package Inheritance;
+
+public class Ques8 {
+
+	public static void main(String[] args) // a program to print first 10 natural nu,ber in reverse order
+	{
+		
+	}
+
+}

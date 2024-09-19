@@ -1,0 +1,25 @@
+package Interview_practice;
+
+import java.util.HashSet;
+import java.util.Set;
+
+public class javaa
+{   
+	public static void main(String[] args) 
+	
+	{
+		int [] a= {12,23,43,24,46,46};
+		int min=a[0];
+		for(int i=1;i<a.length;i++)
+		{
+			if(min>a[i])
+					{
+				      min=a[1];
+					}
+		}
+		
+		System.out.println(min);
+	}
+
+	}
+   

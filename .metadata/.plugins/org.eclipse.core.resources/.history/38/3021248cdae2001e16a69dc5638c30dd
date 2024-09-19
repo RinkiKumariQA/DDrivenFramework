@@ -1,0 +1,74 @@
+package testjava;
+
+public class Arraypract {
+
+	public static void main(String[] args) 
+	{
+     
+		int [] a= new int [6];
+		
+	a[0]=12;
+	a[1]=45;
+	a[2]=12;
+	a[3]=65;
+	a[4]=15;
+	a[5]=65;
+	
+	for(int j:a)
+	{
+		System.out.println(j);
+	}
+			
+		
+		
+	int A []= {10,9,8,7,6,5,4,3,2,1};
+	
+	for(int i:A)
+	{
+		System.out.println(i);
+	}
+	
+	
+	String c[]= {"world","Java","World"};
+	
+	
+	for(String k:c)
+	{
+		System.out.println(k);
+	}
+	
+	
+	int R[]= {100,200,300,400,500};
+	
+	int sum=0;
+	for(int i:R)
+	{
+		System.out.println(i);
+		sum=sum+i;
+	}
+	{
+		System.out.println(sum);
+	}
+			
+		
+	Object P=new Object[6];
+	a[0]=57;
+	a[1]=6.9;
+	a[2]="java";
+	a[3]=4;
+	a[4]=true;
+	a[5]='R';
+			for(Object n:P)
+			{
+				System.out.println(n};
+				
+			}
+				
+	
+	
+	
+		}
+		
+	}
+
+

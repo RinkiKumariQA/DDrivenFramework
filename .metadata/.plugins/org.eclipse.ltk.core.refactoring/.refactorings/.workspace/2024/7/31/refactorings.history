@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Rename resource &apos;Data_Object_Framework&apos; to &apos;Data_Driven_Framework&apos;" description="Rename resource &apos;Data_Object_Framework&apos;" flags="7" id="org.eclipse.ltk.core.refactoring.rename.resource" input="/Data_Object_Framework" name="Data_Driven_Framework" stamp="1722416529973" updateReferences="true"/>
+</session>

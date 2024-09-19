@@ -1,0 +1,47 @@
+package testjava;
+
+public class Arraypract {
+
+	public static void main(String[] args) 
+	{
+     
+		int [] a= new int [6];
+		
+	a[0]=12;
+	a[1]=45;
+	a[2]=12;
+	a[3]=65;
+	a[4]=15;
+	a[5]=65;
+	
+	for(int j:a)
+	{
+		System.out.println(j);
+	}
+			
+		
+		
+	int A []= {10,9,8,7,6,5,4,3,2,1};
+	
+	for(int i:A)
+	{
+		System.out.println(i);
+	}
+	
+	
+	String S= {"Welcome";"Java";"World";};
+	
+	for(String k:S)
+	{
+		System.out.println(k);
+	}
+	
+	
+	
+	
+				
+		}
+		
+	}
+
+

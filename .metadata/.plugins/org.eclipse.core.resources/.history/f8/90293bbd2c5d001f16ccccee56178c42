@@ -1,0 +1,25 @@
+package Interview_practice;
+
+import java.util.LinkedList;
+import java.util.Queue;
+
+public class javaa
+{   
+	public static void main(String[] args) 
+	
+	{
+		int a=135791;
+		int b=0;
+	  while(a!=0)
+		{
+			int r=a%10;
+			b=b*10+r;
+			a=a/10;		
+		}
+		
+		System.out.println(b);
+		
+
+
+	}
+}

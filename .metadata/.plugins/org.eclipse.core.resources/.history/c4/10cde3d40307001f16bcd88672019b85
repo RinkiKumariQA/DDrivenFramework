@@ -1,0 +1,19 @@
+package Inheritance;
+
+import java.util.Scanner;
+
+public class T_F {
+
+	public static void main(String[] args) 
+	{   
+	    Scanner ss=new Scanner (System.in);
+	    System.out.println("enter the value f n="); 
+	    int n=ss.nextInt();
+	  for(int g=1;n<=1;n--) 
+	  {
+		  g=n*g;
+		  System.out.println(g);
+	  }
+	}
+
+}

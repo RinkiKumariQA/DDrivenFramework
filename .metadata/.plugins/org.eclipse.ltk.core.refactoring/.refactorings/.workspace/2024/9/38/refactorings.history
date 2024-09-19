@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Delete resource &apos;RestAssured_FrameWork&apos;" deleteContents="false" description="Delete resource &apos;RestAssured_FrameWork&apos;" element1="/RestAssured_FrameWork" flags="7" id="org.eclipse.ltk.core.refactoring.delete.resources" resources="1" stamp="1726598761282"/>
+</session>

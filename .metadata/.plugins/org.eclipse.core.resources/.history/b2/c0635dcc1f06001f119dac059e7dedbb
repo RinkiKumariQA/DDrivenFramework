@@ -1,0 +1,25 @@
+package Inheritance;
+
+import java.util.Scanner;
+
+public class Add_prog 
+{   
+	void m1()
+	{
+		Scanner sc=new Scanner(System.in);
+		System.out.println("entger the value of A=");
+		int A=sc.nextInt();
+		System.out.println("enther the value of B=");
+		int B=sc.nextInt();
+		int C=A+B;
+				
+				System.out.println(C);
+	}
+
+	public static void main(String[] args)
+	{
+      
+	}
+
+}
+

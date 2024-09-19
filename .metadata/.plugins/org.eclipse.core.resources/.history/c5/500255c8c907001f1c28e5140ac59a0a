@@ -1,0 +1,12 @@
+package Stringprogram;
+
+public class Remove_WhiteSpace {
+
+	public static void main(String[] args)   // re
+	{
+        String s1="Java  is  programming  language";
+         s1=s1.replaceAll("\\s", "");
+         System.out.println(s1);
+	}
+       
+}

@@ -1,0 +1,21 @@
+package Interview_practice;
+
+
+public class javaa
+{ 
+   public static void main(String[] args) {
+	
+
+		String s="My name is Rinki";
+		String ss=" ";
+		int l = s.length();
+		for(int i=l-1;i>=0;i--)
+		{
+			ss=ss+s.charAt(i);
+		}
+		
+     System.out.println(ss);		
+}
+ 
+}
+	

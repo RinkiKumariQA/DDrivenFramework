@@ -1,0 +1,17 @@
+package Practice;
+
+public class mainmethodploy {
+
+	public static static void main(int a)
+	{
+		System.out.println(a);
+	}
+	public static void main(String[] args)
+	{
+		mainmethodploy d1=new mainmethodploy();
+		d1.main(34);
+
+		
+	}
+
+}

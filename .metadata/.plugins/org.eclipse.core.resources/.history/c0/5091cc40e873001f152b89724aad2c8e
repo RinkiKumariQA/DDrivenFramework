@@ -1,0 +1,30 @@
+package Interview_practice;
+
+import java.util.HashSet;
+import java.util.Scanner;
+import java.util.Set;
+
+public class javaa
+{   
+	public static void main(String[] args) 
+{ 
+		String s="wow";
+		String pal="";
+		int l=s.length();
+		String c=s;
+		for(int i=l-1;i>=0;i-- )
+		{
+			pal=pal+s.charAt(i);
+		}
+		
+		if(c.equals(pal))
+		{
+			System.out.println("pal");
+		}
+		else
+		{
+			System.out.println("pal not ");
+		}
+}
+}
+	

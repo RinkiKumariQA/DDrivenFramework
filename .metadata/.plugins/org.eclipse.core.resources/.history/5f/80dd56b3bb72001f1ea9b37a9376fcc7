@@ -1,0 +1,32 @@
+package Interview_practice;
+
+import java.util.HashSet;
+import java.util.Scanner;
+import java.util.Set;
+
+public class javaa
+{   
+	public static void main(String[] args) 
+{ 
+     int i;
+     int a=5;
+     for( i=1;i<=a;i++)
+     {
+    	 if(a%i==0)
+    	 {
+    		 break;
+    	 }
+     }
+     if(i==a)
+     {
+    	 System.out.println("number is prime");
+     }
+     else
+     {
+    	 System.out.println("number is not prime");
+     }
+		
+}
+	
+}
+	

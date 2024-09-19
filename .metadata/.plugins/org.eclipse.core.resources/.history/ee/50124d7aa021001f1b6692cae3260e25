@@ -1,0 +1,21 @@
+package Interv_Practice;
+
+import org.openqa.selenium.By;
+import org.openqa.selenium.WebDriver;
+import org.openqa.selenium.chrome.ChromeDriver;
+
+public class Xpath_practice {
+
+	public static void main(String[] args) throws InterruptedException 
+	{
+		System.setProperty("WebDriver.Chrome.driver", "C:\\Users\\RINKI\\eclipse-workspace\\SeleniumClass\\src\\test\\java\\driver\\chromedriver.exe");
+		WebDriver driver=new ChromeDriver();
+		driver.get("https://www.snaffle.com.au/");
+	//  Thread.sleep(6000);
+	//	driver.findElement(By.xpath("//button[@title='Close']")).click();
+	// driver.findElement(By.xpath("//section[@class='content product-list-featured']")).click();
+       driver.findElement(By.xpath("//div[@class='card card--product xs-6 sm-4 md-3 lg-3']"));
+	
+	}
+
+}

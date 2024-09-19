@@ -1,0 +1,10 @@
+package Inheritance;
+
+public class Times_5_name {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+
+	}
+
+}
