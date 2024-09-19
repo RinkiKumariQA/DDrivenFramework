@@ -8,6 +8,7 @@ import java.sql.Statement;
 
 public class Database_Connection
 {
+	//Hello
         public static void main(String[] args) throws Exception
         {
 		Connection con=	DriverManager.getConnection("jdbc:mysql://localhost:3306/pract","root","rinki@sql");
